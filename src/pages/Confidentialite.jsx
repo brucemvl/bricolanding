@@ -86,9 +86,12 @@ Nous ne stockons aucune donnée bancaire.
 
    <h2>10. Hébergement</h2>
    <p>
-Les données sont hébergées par :
-[Nom de l’hébergeur] (ex : Vercel, AWS, OVH)
-[Adresse] 
+Les données sont hébergées par :<br></br>
+Vercel Inc.<br></br>
+440 N Barranca Ave #4133<br />
+Covina, CA 91723<br />
+États-Unis<br />
+Site web : https://vercel.com 
   </p>
 
   <h2>11. Cookies</h2>
