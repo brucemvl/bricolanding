@@ -7,7 +7,6 @@ import Utilisation from './pages/Utilisation';
 import Confidentialite from './pages/Confidentialite';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 

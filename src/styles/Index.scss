@@ -63,4 +63,71 @@
             height: 18em;
         }
     }
+
+    .accord {
+        display: flex;
+        flex-direction: column;
+background-color: #1a5b4f ;
+        padding: 1em;
+        border-radius: 20px;
+                align-items: center;
+
+        h2 {
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        h3 {
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+            font-size: 1em;
+            margin-top: 08px;
+        }
+
+        div {
+
+            display: flex;
+            gap: 2em;
+
+        img {
+            height: 14em;
+        }
+    }
+    }
+
+    .telechargez {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        
+
+        .screen {
+            height: 15em;
+        }
+
+        aside {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+            h2 {
+            font-family: Montserrat;
+            color: #1a5b4f;
+        }
+
+        div {
+            display: flex;
+            gap: 1em;
+            
+            img {
+                height: 1.6em;
+                width: 6em;
+            }
+        }
+        }
+    }
     }
