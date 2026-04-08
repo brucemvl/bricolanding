@@ -11,7 +11,7 @@ function Index(){
 
     return <div className="blocpage__home">
 
-<h1>TROUVER UN BRICOLEUR N'A JAMAIS ETE AUSSI SIMPLE</h1>
+<h1>TROUVERRRRRRR UN BRICOLEUR N'A JAMAIS ETE AUSSI SIMPLE</h1>
         <article className="pro">
             <aside>
             <h2>Vous êtes bricoleur et cherchez des missions près de chez vous?</h2>
