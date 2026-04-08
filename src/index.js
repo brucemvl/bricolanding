@@ -2,15 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Index from './pages/Index';
+import Mentions from './pages/Mentions';
+import Utilisation from './pages/Utilisation';
+import Confidentialite from './pages/Confidentialite';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Index />
+        <Router>
+          <Header />
+                      <Routes>
+
+<Route path="/" element={<Index />} />
+<Route path="/Mentions" element={<Mentions />} />
+<Route path="/Confidentialite" element={<Confidentialite />} />
+<Route path="/Utilisation" element={<Utilisation />} />
+    
+    </Routes>
     <Footer />
+    </Router>
   </React.StrictMode>
 );
 

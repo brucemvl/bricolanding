@@ -6,10 +6,8 @@ import screen2 from "../assets/screen2.png"
 function Index(){
 
     return <div className="blocpage__home">
-        <header>
-        <img src={logo} className="logo" alt="logo"/>
+
 <h1>TROUVER UN BRICOLEUR N'A JAMAIS ETE AUSSI SIMPLE</h1>
-        </header>
         <article className="pro">
             <aside>
             <h2>Vous êtes bricoleur et cherchez des missions près de chez vous?</h2>

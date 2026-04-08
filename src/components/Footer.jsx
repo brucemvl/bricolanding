@@ -9,11 +9,11 @@ return (
 <footer>
 <nav>
             <ul className='header__navbar'>
-                {/*
-                <li className='header__navbar__li'><NavLink className="header__navbar__li__link" to="/">Mentions Légales</NavLink></li>
-                <li className='header__navbar__li' ><NavLink className="header__navbar__li__link" to="/">Confidentialité</NavLink></li>
-                <li className='header__navbar__li' ><NavLink className="header__navbar__li__link" to="/">Conditions d'utilisation</NavLink></li>
-*/}
+                
+                <li className='header__navbar__li'><NavLink className="header__navbar__li__link" to="/Mentions">Mentions Légales</NavLink></li>
+                <li className='header__navbar__li' ><NavLink className="header__navbar__li__link" to="/Confidentialite">Confidentialité</NavLink></li>
+                <li className='header__navbar__li' ><NavLink className="header__navbar__li__link" to="/Utilisation">Conditions d'utilisation</NavLink></li>
+
 
              </ul>
         </nav>
