@@ -1,0 +1,73 @@
+.blocpage__home {
+    
+        background-image: url("../assets/convert_1.png");
+        
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        header {
+display: flex;
+        align-items: center;
+        flex-direction: column;
+        .logo {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        }
+
+        h1 {
+            font-family: Montserrat;
+            text-align: center;
+            font-size: 1.8em;
+        }
+    }
+
+    .pro {
+        display: flex;
+        background-color: #1a5b4f ;
+        padding: 1em;
+        border-radius: 20px;
+        align-items: center;
+
+        h2 {
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+        }
+        h3 {
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        img {
+            height: 18em;
+        }
+    }
+
+    .client {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1em;
+        align-items: center;
+
+        h2 {
+            font-family: Montserrat;
+            color: #1a5b4f;
+            text-align: center;
+        }
+        h3 {
+            font-family: Montserrat;
+            color: #1a5b4f;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        img {
+            height: 18em;
+        }
+    }
+    }
