@@ -48,8 +48,8 @@ function Index(){
   <aside>
     <h2>Telechargez l'appli des maintenant</h2>
     <div>
-            <img src={apple} className="apple" alt="capture d'ecran" />
-            <img src={android} className="android" alt="capture d'ecran" />
+            <a href="https://apps.apple.com/fr/app/briconnect/id6761682000"><img src={apple} className="apple" alt="bouton appstore" /></a>
+            <img src={android} className="android" alt="bouton google play store" />
             </div>
             </aside>
         </article>
