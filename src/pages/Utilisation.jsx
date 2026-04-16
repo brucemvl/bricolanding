@@ -24,7 +24,7 @@ L’inscription est gratuite.<br></br>
 Le Client s’engage à fournir des informations exactes, complètes et à jour.
 </p>
 
-<h2>2.2 Professionnels</h2>
+<h3>2.2 Professionnels</h3>
 <p>
 L’accès aux demandes est soumis à un abonnement mensuel de 19€ TTC.<br></br>
 
