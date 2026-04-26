@@ -119,12 +119,17 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+gap: 0.5em;
 
+.qr {
+            height: 5em;
+        }
             h2 {
             font-family: Montserrat;
             color: #1a5b4f;
                         font-weight: 800;
                         text-align: center;
+                        margin-block-end: 0;
 
         }
 

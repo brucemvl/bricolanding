@@ -1,11 +1,13 @@
-import "../styles/Index.scss"
+import apple from "../assets/app.webp"
+import android from "../assets/google-play.png"
+import qrcode from "../assets/qrcode.png"
 import screen from "../assets/screen1.png"
 import screen2 from "../assets/screen2.png"
 import screen3 from "../assets/screen3.png"
 import screen4 from "../assets/screen4.png"
 import screen5 from "../assets/screen5.png"
-import apple from "../assets/app.webp"
-import android from "../assets/google-play.png"
+import "../styles/Index.scss"
+
 
 function Index(){
 
@@ -47,6 +49,7 @@ function Index(){
           <img src={screen5} className="screen" alt="capture d'ecran" /> 
   <aside>
     <h2>Telechargez l'appli des maintenant</h2>
+    <a href="https://brico-8fih.onrender.com/download"><img src={qrcode} className="qr" alt="QR Code" /></a>
     <div>
             <a href="https://apps.apple.com/fr/app/briconnect/id6761682000"><img src={apple} className="apple" alt="bouton appstore" /></a>
             <img src={android} className="android" alt="bouton google play store" />
