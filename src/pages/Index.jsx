@@ -1,11 +1,11 @@
 import apple from "../assets/app.webp"
 import screen from "../assets/convert.webp"
+import screen2 from "../assets/convert_1.webp"
+import screen3 from "../assets/convert_2.webp"
+import screen4 from "../assets/convert_3.webp"
+import screen5 from "../assets/convert_4.webp"
 import android from "../assets/google-play.png"
 import qrcode from "../assets/qrcode.png"
-import screen2 from "../assets/screen2.png"
-import screen3 from "../assets/screen3.png"
-import screen4 from "../assets/screen4.png"
-import screen5 from "../assets/screen5.png"
 import "../styles/Index.scss"
 
 
