@@ -15,7 +15,7 @@ BMDev<br></br>
 Micro-entreprise<br></br>
 SIRET : 9409122490001<br></br>
 Siège social : 1 rue du soleil levant, 92140 Clamart<br></br>
-Email : bruce.monnerville@hotmail.fr<br></br>
+Email : briconnectapp@gmail.com<br></br>
 
 Le responsable de la publication est : Bruce Monnerville
 </p>
@@ -67,7 +67,7 @@ L’utilisateur peut configurer ses préférences via son navigateur.
 <p>
 Pour toute question ou demande d’information :<br></br>
 
-Email : bruce.monnerville@hotmail.fr
+Email : briconnectapp@gmail.com
 </p>
         </div>
     )
