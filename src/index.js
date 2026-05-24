@@ -5,6 +5,7 @@ import Index from './pages/Index';
 import Mentions from './pages/Mentions';
 import Utilisation from './pages/Utilisation';
 import Confidentialite from './pages/Confidentialite';
+import Openapp from './pages/Openapp';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
@@ -22,6 +23,7 @@ root.render(
 <Route path="/Mentions" element={<Mentions />} />
 <Route path="/Confidentialite" element={<Confidentialite />} />
 <Route path="/Utilisation" element={<Utilisation />} />
+<Route path="/Openapp" element={<Openapp />} />
     
     </Routes>
     <Footer />
