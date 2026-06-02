@@ -6,6 +6,7 @@ import Mentions from './pages/Mentions';
 import Utilisation from './pages/Utilisation';
 import Confidentialite from './pages/Confidentialite';
 import Openapp from './pages/Openapp';
+import Newsletter from "./pages/Newsletter";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
@@ -24,6 +25,7 @@ root.render(
 <Route path="/Confidentialite" element={<Confidentialite />} />
 <Route path="/Utilisation" element={<Utilisation />} />
 <Route path="/Openapp" element={<Openapp />} />
+<Route path="/newsletter" element={<Newsletter />} />
     
     </Routes>
     <Footer />

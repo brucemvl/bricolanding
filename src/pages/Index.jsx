@@ -52,7 +52,7 @@ function Index(){
     <a href="https://brico-8fih.onrender.com/download"><img src={qrcode} className="qr" alt="QR Code" /></a>
     <div>
             <a href="https://apps.apple.com/fr/app/briconnect/id6761682000"><img src={apple} className="apple" alt="bouton appstore" /></a>
-            <img src={android} className="android" alt="bouton google play store" />
+            <a href="/newsletter" className="cta-newsletter"><img src={android} className="android" alt="bouton google play store" /></a>
             </div>
             </aside>
         </article>
