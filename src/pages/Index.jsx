@@ -51,8 +51,18 @@ function Index(){
     <h2>Telechargez l'appli des maintenant</h2>
     <a href="https://brico-8fih.onrender.com/download"><img src={qrcode} className="qr" alt="QR Code" /></a>
     <div>
-            <a href="https://apps.apple.com/fr/app/briconnect/id6761682000"><img src={apple} className="apple" alt="bouton appstore" /></a>
-            <a href="/newsletter" className="cta-newsletter"><img src={android} className="android" alt="bouton google play store" /></a>
+        <a href="https://apps.apple.com/fr/app/briconnect/id6761682000">
+        <div className="download">
+        <h3>Telecharger sur IOS</h3>
+            <img src={apple} className="apple" alt="bouton appstore" />
+            </div>
+            </a>
+            <a href="/newsletter" className="cta-newsletter">
+                    <div className="download">
+<h3>Telecharger sur Android</h3>
+            <img src={android} className="android" alt="bouton google play store" />
+            </div>
+            </a>
             </div>
             </aside>
         </article>

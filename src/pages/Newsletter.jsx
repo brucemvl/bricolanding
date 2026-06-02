@@ -30,7 +30,7 @@ function Newsletter() {
   return (
     <div className="newsletter">
       <div className="newsletter__card">
-        <h1>🚀 Telechargez l'application android</h1>
+        <h1>Telechargez l'application android</h1>
 
         <p>
           Laissez votre adresse email pour recevoir un lien de telechargement sur Playstore.

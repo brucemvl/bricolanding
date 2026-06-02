@@ -136,6 +136,25 @@ gap: 0.5em;
         div {
             display: flex;
             gap: 1em;
+            flex-direction: column;
+
+            .download {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+                border:  2px  solid #1a5b4f;
+                border-radius: 20px;
+                padding: 0.2em;
+
+                h3 {
+                    font-size: 0.9em;
+                    text-align: center;
+                    font-family: Montserrat;
+                    color: #1a5b4f;
+                }
+
+            }
             
             
             img {
