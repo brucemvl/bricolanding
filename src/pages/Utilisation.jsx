@@ -156,7 +156,7 @@ Tout litige relève de la compétence des tribunaux du siège social de l’édi
 Pour toute question, vous pouvez contacter :
 
 BMDev
-Email : bruce.monnerville@hotmail.fr
+Email : briconnectapp@gmail.com
 </p>
    </div>
 
