@@ -123,6 +123,8 @@ gap: 0.5em;
 
 .qr {
             height: 5em;
+            border: 2px #1a5b4f solid;
+            border-radius: 10px;
         }
             h2 {
             font-family: Montserrat;
@@ -138,20 +140,28 @@ gap: 0.5em;
             gap: 1em;
             flex-direction: column;
 
+            a{
+
+                text-decoration: none;
+
             .download {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 gap: 0;
-                border:  2px  solid #1a5b4f;
+                border:  1px  solid #1a5b4f;
                 border-radius: 20px;
                 padding: 0.2em;
+                background-color: #1a5b4f;
+                padding: 8px;
 
                 h3 {
                     font-size: 0.9em;
                     text-align: center;
                     font-family: Montserrat;
                     color: #1a5b4f;
+                    font-weight: 800;
+                    color: #fff;
                 }
 
             }
@@ -162,6 +172,7 @@ gap: 0.5em;
                 width: 6em;
             }
         }
+    }
         }
     }
     }
