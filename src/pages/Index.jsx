@@ -57,7 +57,7 @@ function Index(){
             <img src={apple} className="apple" alt="bouton appstore" />
             </div>
             </a>
-            <a href="/newsletter" className="cta-newsletter">
+            <a href="https://play.google.com/store/apps/details?id=com.bmdev14.bricoconnect" className="cta-newsletter">
                     <div className="download">
 <h3>Telecharger sur Android</h3>
             <img src={android} className="android" alt="bouton google play store" />
