@@ -97,10 +97,35 @@ background-color: #1a5b4f ;
             gap: 1em;
 
         img {
-            height: 16em;
+            height: 17em;
             width: 9em;
         }
     }
+    }
+
+    .discussion {
+        display: flex;
+        padding: 1em;
+        border-radius: 20px;
+        align-items: center;
+
+        h2 {
+            font-family: Montserrat;
+            color: #1a5b4f;
+            text-align: center;
+                        font-weight: 800;
+
+        }
+        h3 {
+            font-family: Montserrat;
+            color: #1a5b4f;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        img {
+            height: 18em;
+        }
     }
 
     .telechargez {

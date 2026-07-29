@@ -4,6 +4,7 @@ import screen2 from "../assets/convert_1.webp"
 import screen3 from "../assets/convert_2.webp"
 import screen4 from "../assets/convert_3.webp"
 import screen5 from "../assets/convert_4.webp"
+import screen6 from "../assets/convert_5.webp"
 import android from "../assets/google-play.png"
 import qrcode from "../assets/qrcode.png"
 import "../styles/Index.scss"
@@ -36,12 +37,24 @@ function Index(){
             <aside>
             <h2>Trouvez le profil idéal</h2>
             <h3>
+    Parmis les artisans qui vous contactent
+  </h3>
+  </aside>
+  <div>
+            <img src={screen4} className="screen" alt="capture d'ecran profil bricoleur" />
+            <img src={screen3} className="screen" alt="capture d'ecran details mission et conversation" />
+            </div>
+        </article>
+
+        <article className="discussion">
+            <aside>
+            <h2>Entrez en contact</h2>
+            <h3>
     Et mettez vous d'accord avant d'echanger vos coordonnées
   </h3>
   </aside>
   <div>
-            <img src={screen3} className="screen" alt="capture d'ecran profil bricoleur" />
-            <img src={screen4} className="screen" alt="capture d'ecran details mission et conversation" />
+            <img src={screen6} className="screen" alt="capture d'ecran profil bricoleur" />
             </div>
         </article>
 
