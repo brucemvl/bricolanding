@@ -38,7 +38,7 @@ function Index(){
             <aside>
             <h2>Trouvez le profil idéal</h2>
             <h3>
-    Parmis les artisans qui vous contactent
+    Parmi les artisans qui vous contactent
   </h3>
   </aside>
   <div>
@@ -51,7 +51,7 @@ function Index(){
             <aside>
             <h2>Entrez en contact</h2>
             <h3>
-    Et mettez vous d'accord avant d'echanger vos coordonnées
+    Et mettez vous d'accord avant d'échanger vos coordonnées
   </h3>
   </aside>
   <div>
