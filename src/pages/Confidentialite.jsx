@@ -70,7 +70,7 @@ Conformément au RGPD, vous disposez :<br></br>
 • D’un droit de rectification<br></br>
 • D’un droit de suppression<br></br>
 • D’un droit d’opposition<br></br>
-Toute demande peut être adressée à : bruce.monnerville@hotmail.fr
+Toute demande peut être adressée à : briconnectapp@gmail.fr
 </p>
 
 <h2>8. Sécurité des données</h2>
