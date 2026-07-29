@@ -128,6 +128,33 @@ background-color: #1a5b4f ;
         }
     }
 
+    .avis {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #1a5b4f ;
+        padding: 1em;
+        border-radius: 20px;
+        align-items: center;
+
+        h2 {
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+                        font-weight: 800;
+
+        }
+        h3 {
+            font-family: Montserrat;
+            color: #fff;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        img {
+            height: 18em;
+        }
+    }
+
     .telechargez {
         display: flex;
         flex-direction: row-reverse;

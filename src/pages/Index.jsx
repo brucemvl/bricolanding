@@ -5,6 +5,7 @@ import screen3 from "../assets/convert_2.webp"
 import screen4 from "../assets/convert_3.webp"
 import screen5 from "../assets/convert_4.webp"
 import screen6 from "../assets/convert_5.webp"
+import screen7 from "../assets/convert_6.webp"
 import android from "../assets/google-play.png"
 import qrcode from "../assets/qrcode.png"
 import "../styles/Index.scss"
@@ -41,8 +42,8 @@ function Index(){
   </h3>
   </aside>
   <div>
-            <img src={screen4} className="screen" alt="capture d'ecran profil bricoleur" />
-            <img src={screen3} className="screen" alt="capture d'ecran details mission et conversation" />
+            <img src={screen4} className="screen" alt="capture d'ecran details mission et conversation" />
+            <img src={screen3} className="screen" alt="capture d'ecran profil bricoleur" />
             </div>
         </article>
 
@@ -54,8 +55,16 @@ function Index(){
   </h3>
   </aside>
   <div>
-            <img src={screen6} className="screen" alt="capture d'ecran profil bricoleur" />
+            <img src={screen6} className="screen" alt="capture d'ecran conversation" />
             </div>
+        </article>
+
+        <article className="avis">
+            <aside>
+            <h2>Des avis vérifiés</h2>
+            <h3>Les notes et commentaires vous aident à sélectionner un professionnel de confiance</h3>
+            </aside>
+            <img src={screen7} className="screen" alt="capture d'ecran avis" />
         </article>
 
         <article className="telechargez">
