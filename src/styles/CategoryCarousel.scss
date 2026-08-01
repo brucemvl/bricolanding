@@ -1,0 +1,25 @@
+.category-wrapper { 
+    width: 220px;
+     height: 160px;
+      display: flex;
+       justify-content: center;
+        align-items: center;
+         overflow: hidden;
+         }
+         
+         .category-card { 
+            display: flex; 
+            flex-direction: column;
+             align-items: center;
+              gap: 12px; transition: opacity 0.4s ease, transform 0.4s ease;
+             } 
+             .category-card.show { opacity: 1; transform: translateX(0);
+             }
+              .category-card.hide { opacity: 0; transform: translateX(20px);
+             }
+              .category-icon { width: 64px; height: 64px; object-fit: contain; }
+             
+             .category-name { font-size: 1.2rem;
+                  margin: 0;
+                   color: #222;
+                font-family: Montserrat; }
