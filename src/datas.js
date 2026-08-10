@@ -4,6 +4,7 @@ import electricite from "../src/assets/icons/bolt.png"
 import plomberie from "../src/assets/icons/faucet.png"
 import agencement from "../src/assets/icons/driller.png"
 import jardinage from "../src/assets/icons/mower.png"
+import demenagement from "../src/assets/icons/truck-loading.png"
 
 const categories = [
     {
@@ -29,7 +30,12 @@ const categories = [
     {
         name: "Jardinage",
         icon: jardinage
+    },
+    {
+        name: "Déménagement",
+        icon: demenagement
     }
+
 ]
 
 export default categories
