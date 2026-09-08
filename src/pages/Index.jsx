@@ -16,7 +16,7 @@ function Index(){
 
     return <div className="blocpage__home">
 
-<h1>TROUVER UN BRICOLEUR N'A JAMAIS ETE AUSSI SIMPLE</h1>
+<h1>TROUVER UN ARTISAN N'A JAMAIS ETE AUSSI SIMPLE</h1>
 <CategoriesCarousel />
         <article className="pro">
             <aside>
