@@ -1,232 +1,522 @@
 .blocpage__home {
-    
-        background-image: url("../assets/convert_1.png");
-        
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
-        align-items: center;
+    --green: #1a5b4f;
+    --green-dark: #12463d;
+    --green-light: #eaf3f0;
+    --text: #20312e;
+    --muted: #687873;
+    --background: #f7faf8;
 
-        
+    background: var(--background);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 0 6%;
+    overflow: hidden;
+
+    h1, h2, h3, p {
+        font-family: Montserrat, sans-serif;
+    }
+
+    p {
+        color: var(--muted);
+        line-height: 1.8;
+    }
+
+    .hero {
+        min-height: 540px;
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        align-items: center;
+        gap: 3rem;
+        padding: 4rem 0;
+
+        &__content {
+            max-width: 650px;
+        }
+
+        &__tag,
+        .section-label {
+            color: var(--green);
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
 
         h1 {
-            font-family: Montserrat;
-            text-align: center;
-            font-size: 1.8em;
+            font-size: clamp(2.6rem, 5vw, 4.5rem);
+            line-height: 1.12;
+            font-weight: 900;
+            margin: 1.2rem 0;
+
+            span {
+                display: block;
+                color: var(--green);
+            }
+        }
+
+        p {
+            font-size: 1.1rem;
+            max-width: 540px;
+        }
+
+        &__actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .button {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            font-family: Montserrat, sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 0.2s ease;
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+
+            &--primary {
+                color: white;
+                background: var(--green);
+
+                &:hover {
+                    background: var(--green-dark);
+                }
+            }
+
+            &--secondary {
+                color: var(--green);
+                border: 1px solid #c9d9d3;
+                background: white;
+            }
+        }
+
+        &__reassurance {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin-top: 2rem;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--green);
+            font-family : Montserrat, sans-serif;
+        }
+
+        &__visual {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 420px;
+
+            img {
+                position: relative;
+                z-index: 1;
+                max-height: 410px;
+                max-width: 85%;
+                object-fit: contain;
+                filter: drop-shadow(0 20px 30px rgba(20, 60, 48, 0.15));
+            }
+        }
+
+        &__decoration {
+            position: absolute;
+            width: 340px;
+            height: 340px;
+            border-radius: 50%;
+            background: var(--green-light);
+        }
+    }
+
+    .categories,
+    .fonctionnement {
+        width: 100%;
+        align-items : center;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .section-heading {
+        text-align: center;
+        max-width: 650px;
+        margin: 0 auto 3rem;
+
+        > span {
+            color: var(--green);
+            font-size: 0.75rem;
             font-weight: 800;
-            margin-block-end: 0;
+            letter-spacing: 2px;
         }
-    
-
-    .pro {
-        display: flex;
-        background-color: #1a5b4f ;
-        padding: 1em;
-        border-radius: 20px;
-        align-items: center;
 
         h2 {
-            font-family: Montserrat;
-            color: #fff;
-            text-align: center;
-                        font-weight: 800;
-
-        }
-        h3 {
-            font-family: Montserrat;
-            color: #fff;
-            text-align: center;
-            font-size: 1em;
+            font-size: clamp(1.8rem, 3vw, 2.7rem);
+            font-weight: 850;
+            margin: 0.8rem 0;
         }
 
-        img {
-            height: 18em;
+        p {
+            margin: 0;
         }
     }
 
-    .client {
-        display: flex;
-        flex-direction: row-reverse;
-        padding: 1em;
-        align-items: center;
+    .parcours {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
 
-        h2 {
-            font-family: Montserrat;
-            color: #1a5b4f;
+        &__card {
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
             text-align: center;
-                        font-weight: 800;
+            padding: 2.5rem 2rem 0;
+            border-radius: 24px;
+            overflow: hidden;
 
-        }
-        h3 {
-            font-family: Montserrat;
-            color: #1a5b4f;
-            text-align: center;
-            font-size: 1em;
-        }
+            h2 {
+                font-size: 1.8rem;
+                font-weight: 850;
+                margin: 1rem 0;
+            }
 
-        img {
-            height: 18em;
+            p {
+                max-width: 420px;
+            }
+
+            img {
+                height: 260px;
+                max-width: 90%;
+                object-fit: contain;
+                object-position: bottom;
+                margin-top: 1.5rem;
+            }
+
+            &--pro {
+                background: var(--green);
+                color: white;
+
+                .section-label,
+                p {
+                    color: #d7e9e3;
+                                    font-family: Montserrat, sans-serif;
+
+                }
+            }
+
+            &--client {
+                background: white;
+                border: 1px solid #e5ece8;
+
+                .section-label {
+                    color: var(--green);
+                                    font-family: Montserrat, sans-serif;
+
+                }
+            }
         }
     }
 
-    .accord {
+    .etapes {
         display: flex;
         flex-direction: column;
-background-color: #1a5b4f ;
-        padding: 1em;
-        border-radius: 20px;
-                align-items: center;
+        gap: 2rem;
+    }
 
-        h2 {
-            font-family: Montserrat;
-            color: #fff;
-            text-align: center;
-            margin-bottom: 0;
-            font-weight: 800;
+    .etape {
+        display: grid;
+        grid-template-columns: 70px minmax(220px, 0.8fr) 1fr;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        background: white;
+        border: 1px solid #e8eeeb;
+        border-radius: 22px;
+
+        &__number {
+            width: 60px;
+            height: 60px;
+            display: grid;
+            place-items: center;
+            border-radius: 18px;
+            background: var(--green-light);
+            color: var(--green);
+            font-size: 1.2rem;
+            font-weight: 900;
         }
-        h3 {
-            font-family: Montserrat;
-            color: #fff;
-            text-align: center;
-            font-size: 1em;
-            margin-top: 08px;
+
+        &__text {
+            h3 {
+                font-size: 1.35rem;
+                font-weight: 800;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
         }
 
-        div {
-
+        &__images {
             display: flex;
-            gap: 1em;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            min-width: 0;
 
-        img {
-            height: 17em;
-            width: 9em;
+            img {
+                height: 220px;
+                max-width: 48%;
+                width: auto;
+                object-fit: contain;
+            }
         }
     }
-    }
 
-    .discussion {
-        display: flex;
-        padding: 1em;
-        border-radius: 20px;
+    .telechargement {
+        display: grid;
+        grid-template-columns: 1fr auto;
         align-items: center;
+        gap: 3rem;
+        padding: 3.5rem;
+        margin-bottom: 4rem;
+        border-radius: 28px;
+        background: var(--green);
+        color: white;
+
+        .section-label {
+            color: #c6e2d7;
+            font-family: Montserrat, sans-serif;
+        }
 
         h2 {
-            font-family: Montserrat;
-            color: #1a5b4f;
-            text-align: center;
-                        font-weight: 800;
-
-        }
-        h3 {
-            font-family: Montserrat;
-            color: #1a5b4f;
-            text-align: center;
-            font-size: 1em;
+            max-width: 600px;
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 900;
+            margin: 1rem 0;
         }
 
-        img {
-            height: 18em;
-        }
-    }
-
-    .avis {
-        display: flex;
-        flex-direction: row-reverse;
-        background-color: #1a5b4f ;
-        padding: 1em;
-        border-radius: 20px;
-        align-items: center;
-
-        h2 {
-            font-family: Montserrat;
-            color: #fff;
-            text-align: center;
-                        font-weight: 800;
-
-        }
-        h3 {
-            font-family: Montserrat;
-            color: #fff;
-            text-align: center;
-            font-size: 1em;
+        p {
+            color: #e0eee9;
+            max-width: 520px;
         }
 
-        img {
-            height: 18em;
-        }
-    }
-
-    .telechargez {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-
-        
-
-        .screen {
-            height: 15em;
-        }
-
-        aside {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 0.5em;
-
-.qr {
-            height: 5em;
-            border: 2px #1a5b4f solid;
-            border-radius: 10px;
-        }
-            h2 {
-            font-family: Montserrat;
-            color: #1a5b4f;
-                        font-weight: 800;
-                        text-align: center;
-                        margin-block-end: 0;
-
-        }
-
-        div {
+        &__badges {
             display: flex;
-            gap: 1em;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .store-link {
+            min-width: 175px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            column-gap: 0.8rem;
+            padding: 0.8rem 1rem;
+            border: 1px solid rgba(255,255,255,0.35);
+            border-radius: 12px;
+            background: white;
+            color: var(--green-dark);
+            text-decoration: none;
+            transition: 0.2s ease;
+
+            &:hover {
+                transform: translateY(-3px);
+            }
+
+            span {
+                font-size: 0.7rem;
+                font-family: Montserrat, sans-serif;
+            }
+
+            strong {
+                font-size: 0.95rem;
+            }
+
+            img {
+                grid-column: 2;
+                grid-row: 1 / 3;
+                width: 55px;
+                height: 35px;
+                object-fit: contain;
+            }
+        }
+
+        &__qr {
+            display: flex;
             flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.2rem;
+            border-radius: 18px;
+            background: white;
+            color: var(--green);
+            text-decoration: none;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 700;
+            font-family: Montserrat, sans-serif;
 
-            a{
+            img {
+                width: 145px;
+                height: 145px;
+                object-fit: contain;
+            }
+        }
+    }
+}
 
-                text-decoration: none;
+@media (max-width: 850px) {
+    .blocpage__home {
+        gap: 4rem;
+        padding: 0 4%;
 
-            .download {
-                display: flex;
+        .hero {
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 1rem;
+            padding: 3rem 0;
+
+            &__content {
+                margin: auto;
+            }
+
+            p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            &__actions,
+            &__reassurance {
+                justify-content: center;
+            }
+
+            &__visual {
+                min-height: 300px;
+
+                img {
+                    max-height: 300px;
+                }
+            }
+
+            &__decoration {
+                width: 260px;
+                height: 260px;
+            }
+        }
+
+        .parcours {
+            grid-template-columns: 1fr;
+        }
+
+        .etape {
+            grid-template-columns: 60px 1fr;
+
+            &__images {
+                grid-column: 1 / -1;
+
+                img {
+                    height: 200px;
+                }
+            }
+        }
+
+        .telechargement {
+            grid-template-columns: 1fr;
+            text-align: center;
+
+            p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            &__badges {
+                justify-content: center;
+            }
+
+            &__qr {
+                justify-self: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .blocpage__home {
+        gap: 3.5rem;
+
+        .hero {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            &__actions {
+                flex-direction: column;
+
+                .button {
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+            }
+
+            &__reassurance {
                 flex-direction: column;
                 align-items: center;
-                gap: 0;
-                border:  1px  solid #1a5b4f;
-                border-radius: 20px;
-                padding: 0.2em;
-                background-color: #1a5b4f;
-                padding: 8px;
-
-                h3 {
-                    font-size: 0.9em;
-                    text-align: center;
-                    font-family: Montserrat;
-                    color: #1a5b4f;
-                    font-weight: 800;
-                    color: #fff;
-                }
-
+                gap: 0.6rem;
             }
-            
-            
+        }
+
+        .parcours__card {
+            padding: 2rem 1.2rem 0;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
             img {
-                height: 1.6em;
-                width: 6em;
+                height: 220px;
+            }
+        }
+
+        .etape {
+            padding: 1.3rem;
+            gap: 1rem;
+
+            &__number {
+                width: 48px;
+                height: 48px;
+            }
+
+            &__text h3 {
+                font-size: 1.1rem;
+            }
+
+            &__images img {
+                height: 165px;
+            }
+        }
+
+        .telechargement {
+            padding: 2rem 1.2rem;
+
+            &__badges {
+                flex-direction: column;
+            }
+
+            .store-link {
+                width: 100%;
+                box-sizing: border-box;
             }
         }
     }
-        }
-    }
-    }
+}
