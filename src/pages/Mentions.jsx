@@ -13,7 +13,7 @@ Le présent site est édité par :<br></br>
 
 BMDev<br></br>
 Micro-entreprise<br></br>
-SIRET : 9409122490001<br></br>
+SIRET : 94091224900015<br></br>
 Siège social : 1 rue du soleil levant, 92140 Clamart<br></br>
 Email : briconnectapp@gmail.com<br></br>
 
